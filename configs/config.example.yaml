@@ -1,0 +1,14 @@
+app:
+  name: short-link-service
+  env: dev
+
+http:
+  addr: ":8080"
+
+mysql:
+  dsn: "user:pass@tcp(127.0.0.1:3306)/shortlink?charset=utf8mb4&parseTime=true"
+
+redis:
+  addr: "127.0.0.1:6379"
+  db: 0
+  password: ""
